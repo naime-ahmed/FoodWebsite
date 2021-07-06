@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: #ddd;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: rgb(226, 40, 27);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+nav ul {
+    float: right;
+    margin-right: 60px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+a .active , a:hover{
+    color: orange;
+    transition: .5s;
+
+}
+.Section1{
+    display: flex;
+    width: 100%;
+    padding-bottom: 80px;
+}
+.Text{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.Text p{
+    padding-top: 10px;
+}
+.span-mackup1{
+    color: rgb(34, 18, 185);
+}
+.span-mackup2{
+    color: #dd3ea8;
+}
+.color-tomato{
+    color: tomato;
+}
+.button {
+    padding: 9px 30px;
+    background-image: linear-gradient(blue,#6FC3DF);
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.Image{
+   width: 50%;
+}
+.Image img{
+    width: 80%;
+    margin-left: 70px;
+}
+.benifit{
+    padding-top: 50px;
+    color: lightpink;
+}
+.Details{
+    padding-top:20px ;
+    text-align: justify;
+    margin-bottom: 30px;
+  
+
+}
+
+.Section2{
+    width: 100%;
+   background: #FFEDF9;
+   height: 515px;
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.for-img{
+    width: 50%;
+}
+
+.Image2 img{
+    width: 100%;
+    margin-left: 0px;
+  
+    
+}
+.Text2{
+    width: 50%;
+    margin-top: 150px;
+    text-align: justify;
+   
+}
+.Text2 p{
+    width: 80%;
+}
+.Text2 h1{
+    font-size: 40px;
+    color: brown;
+    margin-bottom: 30px;
+}
+.contact{
+    margin-top: 15px;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #e84444 0%, #bb21ad 100%);
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.RecipiesText{
+    text-align: center;
+    margin-top: 50px;
+}
+.RecipiesText h1{
+    font-size: 30px;
+    color: #bb21ad;
+}
+.RecipiesContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.BisiBeleBath{
+    width: 25% ;
+    margin-left: 7%;
+    box-shadow: 0px 0px 16px 0px #000;
+    border-radius: 15px;
+    
+}
+.BisiBeleBath img{
+    width: 90%;
+    margin-left: 17px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.BisiBeleBath h1{
+    text-align: center;
+    color: gray;
+}
+.BisiBeleBath p{
+    font-size: 13px;
+    margin-left: 8px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    
+}
+.KadhiChawal{
+    width: 25% ;
+    box-shadow: 0px 0px 16px 0px #000;
+    border-radius: 15px;
+}
+.KadhiChawal img{
+    width: 90%;
+    margin-left: 17px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.KadhiChawal h1{
+    text-align: center;
+    color: rgb(204, 191, 2);
+}
+.KadhiChawal p{
+    font-size: 13px;
+    margin-left: 8px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.DalMakhani{
+    width: 25% ;
+    margin-right: 7%;
+   
+    box-shadow: 0px 0px 16px 0px #000;
+    border-radius: 15px;
+}
+
+.DalMakhani img{
+    width: 90%;
+    margin-left: 17px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+
+}
+.DalMakhani h1{
+    text-align: center;
+    color: rgb(7, 163, 7);
+}
+.DalMakhani p{
+    font-size: 13px;
+    margin-left: 8px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 30px;
+   
+}
+.MyRecipies{
+    margin-bottom: 100px;
+    
+}
+
+footer{
+    background: #0B0D17;
+   
+}
+.foot{
+    text-align: center;
+    height: 120px;
+    
+}
+.foot h1{
+    margin-top: 10px;
+    color: tomato;
+    cursor: pointer;
+}
+.foot p {
+    color: aliceblue;
+   
+    
+}
+.foot-plm{
+   margin-top: 10px;
+}
